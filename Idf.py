@@ -4,7 +4,8 @@ import math
 import nltk
 from nltk.tokenize import *
 from nltk.probability import *
-
+from nltk.tokenize import RegexpTokenizer
+ 
 def my_func(x):
 	return x[-1]
 	
@@ -12,7 +13,10 @@ def my_func(x):
 def main():
 	
 	#Tokenization
-	inp = open("body.txt", "r").read()
+	inp = open("body2.txt", "r").read()
+	tokenizer = RegexpTokenizer('\w+')
+	words = tokenizer.tokenize(inp)
+	print words
 	sentence = sent_tokenize(inp)
 	
 	words = []
@@ -27,7 +31,7 @@ def main():
 	fdist = FreqDist(words)
 		
 			
-	inp2 = open("body2.txt", "r").read()
+	inp2 = open("body.txt", "r").read()
 	sentence2 = sent_tokenize(inp2)
 	
 	words2 = []
@@ -50,7 +54,7 @@ def main():
 		tmp = (1+ math.log(it[1],10))*math.log(2/n, 10)
 		idf.append((it[0], tmp))
 	
-	print sorted(idf, key=my_func, reverse=True)
+#	print sorted(idf, key=my_func, reverse=True)
 	
 	
 	
