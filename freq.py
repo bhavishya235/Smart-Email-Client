@@ -5,47 +5,72 @@ import nltk
 from nltk.tokenize import *
 from nltk.probability import *
 
-def my_func(x):
-	return x[-1]
 
-def main():
-	path = 'class0/'
-		
-	freq_file = open(path+'word.db','r')
-	freq_dic = Counter()
-	lines = freq_file.readlines()
-	freq_file.close();
-	
-	for line in lines:
-		line = line.strip()
-		words2 = line.split()
-		freq_dic[words2[0]] =  int(words2[1])
-		
-	#print freq_dic
+def main():			
+	ran = range(4)
 
-	files =  os.listdir(path)
-	for f in files:
-		if os.path.isdir(f) == False and f!="word.db" :
-			fin = open(path+f,'r').read()
-			tokenizer = RegexpTokenizer('[\S]+(@)[\S]+|[\S]*(http)[s]?[\S]+|\w+')
-			words = tokenizer.tokenize(fin)
-			
-			#Getting word frequency
-			fdist = FreqDist(words)
-			
-			for it in fdist.items():
-				if(freq_dic[it[0]]):
-					freq_dic[it[0]] = freq_dic[it[0]]+it[1]
-				else:
-					freq_dic[it[0]] = 1
-			#fin.close()
-			
-	freq_dic = OrderedDict(sorted(freq_dic.items(), key=lambda x: x[1],reverse=True))
+	d_file = open('dictionary').readlines()
+	d_out = open('dictionary','w')
+	dict_key = []
+	dict_occ = []
 	
-	fout = open(path+'word.db','w')
+	for line in d_file:
+		tmp = line.strip()
+		tmp = tmp.split()
+		dict_key.append(tmp[0])
+		dict_occ.append(int(tmp[1]))
+
+
+	for labl in ran:
+		path = 'class'+str(labl)+'/'
+		
+		freq_file = open(path+'word.db').readlines()
+		freq = []
+		key = []
+
+		for line in freq_file:
+			tmp = line.strip()
+			tmp = tmp.split()
+			key.append(tmp[0])
+			freq.append(int(tmp[1]))
+		
+		files =  os.listdir(path)
+		for f in files:
+			if os.path.isdir(f) == False and "file" in f :
+				fin = open(path+f,'r').read().lower()
+				tokenizer = RegexpTokenizer('[\w\.]+(@)[\w\.]+|[\w]*(http)[s]?[^"<>\s]+|\w+')
+				words2 = tokenizer.tokenize(fin)
+				words = []
+				
+				for it in words2:
+					if len(it)>2:
+						words.append(it)
+						
+				for it in words:
+					if it in key:
+						freq[key.index(it)] += 1
+					else:
+						key.append(it)
+						freq.append(1)
+		
+		fout = open(path+'word.db','w')
+		
+		i=0
+		for it in key:
+			fout.write(it+' '+str(freq[i])+'\n')
+			i=i+1
+		
+		for it in key:
+			if it in dict_key:
+				dict_occ[dict_key.index(it)] += 1
+			else:
+				dict_key.append(it)
+				dict_occ.append(1)
 	
-	for i in freq_dic.items():
-		fout.write(i[0]+' '+repr(i[1])+'\n')
+	i=0
+	for it in dict_key:
+		d_out.write(it+' '+str(dict_occ[i])+'\n')
+		i=i+1
         
 if __name__=='__main__':
 	main()

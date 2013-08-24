@@ -4,13 +4,13 @@ import math
 
 
 def main():
-	SMOOTHENING = 0.01
-	ran = range(3)
+	SMOOTHENING = 0.5
+	ran = range(4)
 	
 	#Tokenization
-	inp = open("newmail.txt", "r").read()
+	inp = open("newmail.txt", "r").read().lower()
 	
-	tokenizer = RegexpTokenizer('[\S]+(@)[\S]+|[\S]*(http)[s]?[\S]+|\w+')
+	tokenizer = RegexpTokenizer('[\w\.]+(@)[\w\.]+|[\w]*(http)[s]?[^"<>\s]+|\w+')
 	words = tokenizer.tokenize(inp)
 	
 	fdist = FreqDist(words)
@@ -18,7 +18,7 @@ def main():
 	for i in ran:
 		path = 'class'+str(i)+'/'
 		
-		freq_file = open(path+'idf.db').readlines()
+		freq_file = open(path+'rel_word.db').readlines()
 		freq = []
 		key = []
 
@@ -29,7 +29,7 @@ def main():
 			key.append(tmp[0])
 			freq.append(float(tmp[1]))
 			total_count += float(tmp[1])
-			
+		
 		prob = 1.0
 		for it in fdist.keys():
 			if it in key:

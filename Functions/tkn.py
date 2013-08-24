@@ -5,7 +5,10 @@ from nltk.tokenize import *
 def tkn():
 	
 	#Tokenization
-	inp = open("newmail.txt", "r").read()
+	#inp = open("newmail.txt", "r").read()
 	
-	tokenizer = RegexpTokenizer('[\S]+(@)[\S]+|[\S]*(http)[s]?[\S]+|\w+')
-	return tokenizer.tokenize(inp)
+	inp = '<ko.ko_ko@gmail.co.in.ji>) this is bhav. time = 212121.93i232'
+	tokenizer = RegexpTokenizer('[\w\.]+(@)[\w\.]+|[\w\.]*(http)[s]?[\w\.]+|\w+')
+	print tokenizer.tokenize(inp)
+
+tkn()
