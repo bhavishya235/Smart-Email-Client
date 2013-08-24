@@ -8,7 +8,7 @@ def main():
 	ran = range(4)
 	
 	#Tokenization
-	inp = open("newmail.txt", "r").read().lower()
+	inp = open("newmail2.txt", "r").read().lower()
 	
 	tokenizer = RegexpTokenizer('[\w\.]+(@)[\w\.]+|[\w]*(http)[s]?[^"<>\s]+|\w+')
 	words = tokenizer.tokenize(inp)
@@ -39,6 +39,7 @@ def main():
 			prob = prob + math.log((n+SMOOTHENING)/(total_count+len(key)*SMOOTHENING))
 			
 		print i,prob
+		
 		
 			
 if __name__=='__main__':

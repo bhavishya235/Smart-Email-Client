@@ -4,8 +4,8 @@ import math
 import os
 
 def main():
-	THRESHOLD = 0.05
-	ran = range(4)
+	THRESHOLD = 0.01
+	ran = range(3)
 	
 	docs = len(ran)
 	
@@ -27,7 +27,7 @@ def main():
 		
 		
 	for i in ran:
-		train_file.write(str(i)+":")
+		train_file.write(str(i+1))
 		
 		path = 'class'+str(i)+'/'
 		
@@ -51,14 +51,19 @@ def main():
 		for it in dict_key:
 			if it in key:
 				indx = key.index(it)
-				tmp = 0.5*(0.5+ freq[indx]/maximum)*math.log(docs/dict_occ[j], 10)
+				tmp = math.log(1+ float(freq[indx]), 2)*math.log(float(docs)/float(dict_occ[j]), 2)
 				f_out.write(it+" "+str(tmp)+'\n')
-				train_file.write(" "+str(dict_indx[j])+":"+str(tmp))
 				if tmp>THRESHOLD:
+					train_file.write(" "+str(dict_indx[j])+":"+str(tmp))
 					f_out2.write(it+" "+str(freq[indx])+'\n')
 			j = j+1		
-
+		
+		f_out.close()
+		f_out2.close()
+		
 		train_file.write('\n')
+		
+	train_file.close()
 			
 if __name__=='__main__':
 	main()

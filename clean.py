@@ -1,6 +1,6 @@
 
 def main():
-	ran = range(4)
+	ran = range(3)
 	
 	for i in ran:
 		

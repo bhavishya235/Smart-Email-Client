@@ -7,7 +7,7 @@ from nltk.probability import *
 
 
 def main():			
-	ran = range(4)
+	ran = range(3)
 
 	d_file = open('dictionary').readlines()
 	d_out = open('dictionary','w')
@@ -66,11 +66,15 @@ def main():
 			else:
 				dict_key.append(it)
 				dict_occ.append(1)
+		
+		fout.close()
 	
 	i=0
 	for it in dict_key:
 		d_out.write(it+' '+str(dict_occ[i])+'\n')
 		i=i+1
+		
+	d_out.close()
         
 if __name__=='__main__':
 	main()
