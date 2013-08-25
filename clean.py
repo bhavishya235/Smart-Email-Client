@@ -11,6 +11,9 @@ def main():
 		
 	f = open('dictionary','w')
 	f.close()
+	
+	f = open('dictionary2','w')
+	f.close()
 
 if __name__=='__main__':
 	main()

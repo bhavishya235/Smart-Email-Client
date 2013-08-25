@@ -5,9 +5,9 @@ from nltk.probability import *
 
 def main():
 	THRESHOLD = -400
-	docs = 4
+	docs = 95
 	
-	d_file = open('dictionary').readlines()
+	d_file = open('dictionary2').readlines()
 	dict_key = []
 	dict_occ = []
 	dict_indx = []
