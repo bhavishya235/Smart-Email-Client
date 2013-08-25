@@ -4,7 +4,7 @@ import math
 import os
 
 def main():
-	THRESHOLD = -400
+	THRESHOLD = 0.1
 	ran = range(3)
 	
 	docs = len(ran)
