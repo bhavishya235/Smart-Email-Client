@@ -17,7 +17,7 @@ def sort_count(x):
 	
 	
 
-def main(inp):
+def query(inp):
 	ran = range(3)
 	
 	SMOOTHENING = 0.5
