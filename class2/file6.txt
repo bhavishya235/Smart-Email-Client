@@ -1,0 +1,46 @@
+Hi all,
+
+Continuing with the spirit of Takneek, next we have a lecture on Field
+Programable Gate Array(FPGA). The lecture will start from scratch and will
+be self sufficient and contained to solve the problem statement for
+Takneek. The lecture will follow with a short introduction about the
+format of the event.
+
+Kindly note the details for the same:
+  Venue:-L3
+  Time:- 4:00-6:00 pm
+  Date:- August 24,2013(Friday)
+
+Information for the event and detailed rules and regulation is available at:
+http://students.iitk.ac.in/takneek/2013/events/ps/FPGA.pdf
+
+Hoping for an enthusiastic response!
+
+Cheers,
+Electronics Club
+
+Contacts:
+Shivendu Bhushan  +918960419775
+Sonu Agarwal      +919005888958
+Swapnil Upadhyay  +917417279731
+
+Facebook Group: https://www.facebook.com/groups/eclub.iitk/
+Youtube Channel: http://www.youtube.com/user/electronicsclub
+E-Club Fb page : https://www.facebook.com/groups/eclub.iitk/
+
+
+-- 
+Rudra Pratap Suman
+General Secretary,
+Science and Technology Council,
+Students' Gymkhana.
+Email: sntsecy@iitk.ac.in, rpsuman@iitk.ac.in
+Phone: +91-9450003098
+Council Webpage: http://students.iitk.ac.in/snt
+council FB page:- https://www.facebook.com/sntiitk
+
+'It's still magic even if you know how it's done'
+_______________________________________________
+students mailing list
+students@lists.iitk.ac.in
+http://lists.iitk.ac.in/mailman/listinfo/students

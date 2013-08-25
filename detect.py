@@ -4,7 +4,7 @@ from nltk.probability import *
 
 
 def main():
-	THRESHOLD = 0.3
+	THRESHOLD = -400
 	docs = 4
 	
 	d_file = open('dictionary').readlines()

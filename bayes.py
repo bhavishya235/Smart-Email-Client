@@ -66,11 +66,11 @@ def main():
 		for it in dict_key:
 			if it in key:
 				indx = key.index(it)
-				tmp = (1+math.log(float(freq[indx]),10))*math.log(float(docs)/float(dict_occ[j]), 10)
+				tmp = 0.5*(0.5+float(freq[indx])/float(maximum))*math.log(float(docs)/float(dict_occ[j]), 10)
 				f_out.write(it+" "+str(tmp)+'\n')
 				if tmp>THRESHOLD:
 					train_file.write(" "+str(dict_indx[j])+":"+str(tmp))
-					temp_li.append([dict_indx[j], freq[indx]])
+					temp_li.append([dict_indx[j], tmp])
 					#train_vector.append(({dict_indx[j]: freq[indx]},i+1))
 					f_out2.write(it+" "+str(freq[indx])+'\n')
 
@@ -141,18 +141,16 @@ def detect():
 	temp_li = []
 	for it in dict_key:
 		if it in fdist.keys():
-			tmp = (1+ math.log(float(fdist[it]),10))*math.log(float(docs)/float((dict_occ[j]+1)), 10)
+			tmp = 0.5*(0.5+ float(fdist[it])/float(fdist[fdist.max()]))*math.log(float(docs)/float((dict_occ[j]+1)), 10)
 			f_out.write(it+" "+str(tmp)+'\n')
 			if tmp>THRESHOLD:
 				test_file.write(str(dict_indx[j])+":"+str(tmp)+" ")
-				temp_li.append([dict_indx[j], fdist[it]])
+				temp_li.append([dict_indx[j], tmp])
 				
 		j = j+1		
 	#temp_li = sorted(temp_li, key=myfunc, reverse=True)
 	for it in temp_li:
 		test_vector.append({it[0]: it[1]})
-	
-	print test_vector
 		
 	f_out.close()
 		

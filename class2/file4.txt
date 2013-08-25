@@ -1,0 +1,51 @@
+Hi all,
+
+We received a good response for Embedded design challenge in terms of
+number of teams that registered for the event.
+
+There was an upper limit on the number of teams from each pool, and we
+have more than 3 entries from few pools.
+So, the teams to participate next, will be decided on the basis of the
+abstract submitted. Each team is supposed to submit an abstract containing
+the details of the theory/principles used, list of components, price of
+the same and a detailed methodology of how you wish to solve the problem
+statement.
+
+Those, who fail to make to top 3 can still participate, but Electronics
+Club will not provide Arduino. They are advised to make some arrangements
+on their own.
+
+The deadline for abstract submission is 09:00 pm, August 24,2013(Saturday).
+
+Be strict with the schedule, else the component distribution will be
+delayed or the teams would be liable to rejection.
+
+Cheers,
+Electronics Club
+
+Contacts:
+Shivendu Bhushan  +918960419775
+Sonu Agarwal      +919005888958
+Swapnil Upadhyay  +917417279731
+
+Facebook Group: https://www.facebook.com/groups/eclub.iitk/
+Youtube Channel: http://www.youtube.com/user/electronicsclub
+E-Club Fb page : https://www.facebook.com/groups/eclub.iitk/
+
+
+
+-- 
+Rudra Pratap Suman
+General Secretary,
+Science and Technology Council,
+Students' Gymkhana.
+Email: sntsecy@iitk.ac.in, rpsuman@iitk.ac.in
+Phone: +91-9450003098
+Council Webpage: http://students.iitk.ac.in/snt
+council FB page:- https://www.facebook.com/sntiitk
+
+'It's still magic even if you know how it's done'
+_______________________________________________
+students mailing list
+students@lists.iitk.ac.in
+http://lists.iitk.ac.in/mailman/listinfo/students
