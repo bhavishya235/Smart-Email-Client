@@ -5,10 +5,10 @@ import math
 
 def main():
 	SMOOTHENING = 0.5
-	ran = range(4)
+	ran = range(3)
 	
 	#Tokenization
-	inp = open("newmail2.txt", "r").read().lower()
+	inp = open("newmail", "r").read().lower()
 	
 	tokenizer = RegexpTokenizer('[\w\.]+(@)[\w\.]+|[\w]*(http)[s]?[^"<>\s]+|\w+')
 	words = tokenizer.tokenize(inp)

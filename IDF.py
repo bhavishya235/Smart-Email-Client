@@ -4,7 +4,7 @@ import math
 import os
 
 def main():
-	THRESHOLD = 0.01
+	THRESHOLD = 0.3
 	ran = range(3)
 	
 	docs = len(ran)
@@ -51,7 +51,7 @@ def main():
 		for it in dict_key:
 			if it in key:
 				indx = key.index(it)
-				tmp = math.log(1+ float(freq[indx]), 2)*math.log(float(docs)/float(dict_occ[j]), 2)
+				tmp = 0.5*(0.5+float(freq[indx])/float(maximum))*math.log(float(docs)/float(dict_occ[j]), 2)
 				f_out.write(it+" "+str(tmp)+'\n')
 				if tmp>THRESHOLD:
 					train_file.write(" "+str(dict_indx[j])+":"+str(tmp))

@@ -4,7 +4,7 @@ from nltk.probability import *
 
 
 def main():
-	THRESHOLD = 0.01
+	THRESHOLD = 0.3
 	docs = 4
 	
 	d_file = open('dictionary').readlines()
@@ -40,7 +40,7 @@ def main():
 	j=0
 	for it in dict_key:
 		if it in fdist.keys():
-			tmp = math.log(1+ float(fdist[it]), 2)*math.log(float(docs)/float((dict_occ[j]+1)), 2)
+			tmp = 0.5*(0.5+ float(fdist[it])/float(fdist[fdist.max()]))*math.log(float(docs)/float((dict_occ[j]+1)), 2)
 			f_out.write(it+" "+str(tmp)+'\n')
 			if tmp>THRESHOLD:
 				test_file.write(str(dict_indx[j])+":"+str(tmp)+" ")
