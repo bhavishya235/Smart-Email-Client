@@ -1,18 +1,15 @@
 Hi all,
 
-Continuing with the spirit of Takneek, next we have a lecture on Field
-Programable Gate Array(FPGA). The lecture will start from scratch and will
-be self sufficient and contained to solve the problem statement for
-Takneek. The lecture will follow with a short introduction about the
-format of the event.
+Continuing with the spirit of Takneek and to further explore the field of
+embedded electronics, is a discussion of problem statement for Embedded
+design, Takneek.
 
-Kindly note the details for the same:
-  Venue:-L3
-  Time:- 4:00-6:00 pm
-  Date:- August 24,2013(Friday)
+Venue:- L1
+Time:- 8-10 pm
+Date:- August 22,2013(Thursday)
 
-Information for the event and detailed rules and regulation is available at:
-http://students.iitk.ac.in/takneek/2013/events/ps/FPGA.pdf
+The problem statement is available at:
+http://students.iitk.ac.in/takneek/2013/events/ps/Embedded.pdf
 
 Hoping for an enthusiastic response!
 
@@ -27,6 +24,7 @@ Swapnil Upadhyay  +917417279731
 Facebook Group: https://www.facebook.com/groups/eclub.iitk/
 Youtube Channel: http://www.youtube.com/user/electronicsclub
 E-Club Fb page : https://www.facebook.com/groups/eclub.iitk/
+
 
 
 -- 

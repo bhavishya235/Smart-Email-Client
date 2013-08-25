@@ -1,34 +1,37 @@
-Hi all,
+Hi,
 
-After the problem statement discussion for Embedded design, Takneek, you
-must be clear with the basics of how to approach the statement.
-Before, we start with the component distribution, you are advised to form
-a clear picture of how wish to implement it.
+Has it ever happened that you look at a structure and thought, 'How is
+this thing staying up?' , 'How are the joints made ?', 'How does this
+structure balance the weight?', 'How will it perform in case of
+disasters?' etc.
 
-Interested students are required to form a team of maximum 4 members, all
-members being from the same pool and register at the following link:
+Then DesCon is the right place for you to be. Design and Construction
+Hobby Group (DesCon) aims to provide a platform to people oriented towards
+structural designing, load distribution, disaster proof structuring,
+aesthetics of structural designing, etc.
 
-https://docs.google.com/forms/d/1_gnij3LdrmcHMD_dOUHBDc6CmY1_paZt0vwsF1og6N8/viewform
+To begin this journey , DesCon is organizing its Introductory Lecture on
+16 August.
 
-The deadline for the registration is 11:59pm, August 23,2013(Friday)
+Date: 16 August
+Time: 7:45 pm
+Venue: L2
 
-The problem statement is available at:
-http://students.iitk.ac.in/takneek/2013/events/ps/Embedded.pdf
+Kindly be on time and try to bring a pencil and copy with you.
 
-Hoping for an enthusiastic response!
+Thanking You
+DesCon
 
-Cheers,
-Electronics Club
+In case any query contact:
 
-Contacts:
-Shivendu Bhushan  +918960419775
-Sonu Agarwal      +919005888958
-Swapnil Upadhyay  +917417279731
+Aaditya Verma      9473864281
+Shrey Agarwal       8765696423
+Amanpreet Singh   9621249264
+Rajat Varshney      8765696336
+Sumit Sharma        9621249258
 
-Facebook Group: https://www.facebook.com/groups/eclub.iitk/
-Youtube Channel: http://www.youtube.com/user/electronicsclub
-E-Club Fb page : https://www.facebook.com/groups/eclub.iitk/
-
+To design is to communicate clearly by whatever means you can control or
+master.
 
 
 -- 

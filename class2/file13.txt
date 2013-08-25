@@ -1,12 +1,20 @@
-Hi,
-1.) The First Round is till 26th Aug which is of 10 points
+Hi all,
+      The Freshers programming Contest has been postponed until 8am
+tomorrow. The registrations will start at 0000 hrs tomorrow.
 
-2.) If you have just registered on the link
-http://moneybhai.moneycontrol.com/ then your entry would not be counted
-.You have to also fill the following form:-
-https://docs.google.com/forms/d/1tqjLe1onYjWFlkGIverI2RarlgQuE75f3ikJtmotkDs/viewform
+      Date: August 18
+      Time: 8am
+      Duration: 24hrs
+      Registration Link: http://pclub.in/onj
 
-3.) Round 2: Starts on 27th Aug Ends on 31st Aug Round 2 Points: 15
+Hope to see you all participate in large numbers.
+
+
+Regards,
+Coordinators
+Programming Club
+
+
 
 
 

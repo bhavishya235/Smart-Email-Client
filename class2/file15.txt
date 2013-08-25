@@ -1,20 +1,78 @@
-Dear all,
+Hi all,
 
-Takneek is just around the corner and it's time to gear up for the most
-anticipated event of Takneek, "The SnT Code". Snt Code expresses the
-spirit of the council and Takneek in terms of its set objectives which
-will take you through the window of time & space to get you acquanited
-with the technical history of IITK & what the future holds for us. It will
-engage the audience of multi-expertise as well as newbies to complete the
-problem statement & kick off the Takneek campaign with a pounding win.
+Programming club gears up for Takneek now. The problem statements can be
+found on the takneek website:
+http://students.iitk.ac.in/takneek/2013/events/index.htm
 
-We also have lots of other surprises up our sleeves!
 
-Date: 24th August
-Time: 9:00 PM onwards
-Venue: OAT
 
-So see you all there!
+We will be having 3 competitions this time:
+
+1) Web- Dev: Web development competition.
+
+2) Kodefest: a 5 hr long coding marathon online.
+
+3) Blackbox: An on-spot event testing your problem solving skills.
+
+
+
+We bring to you lectures on Data Structure and Algorithms to help you
+perform better in WPC's and Kodefest.
+
+
+
+Date - 20th and 21st Aug
+
+Venue - L1
+
+Time - 9:00pm - 10:00pm
+
+Perquisite - Lots of enthusiasm
+
+
+
+If solving puzzles is your thing, don't miss this lecture.
+
+
+
+We also bring to a lecture on developing you own GUI(Graphical User
+Interface) using Python
+
+Date - 22nd August
+
+Venue - L1
+
+Time - 9:00pm - 10:00pm
+
+
+
+Do attend this lecture if you are interested in making your own
+applications.
+
+
+
+Hoping to see you in large numbers.
+
+
+
+Contacts -
+
+Shivanshu Agrawal- 8960785350 G102/5
+
+Ankush Sachdeva- 8960401530, 253/2
+
+Karan Singh - 8005451596, C202/10
+
+
+
+
+
+Regards,
+
+Coordinators @Pclub
+
+
+
 
 
 -- 
@@ -28,7 +86,3 @@ Council Webpage: http://students.iitk.ac.in/snt
 council FB page:- https://www.facebook.com/sntiitk
 
 'It's still magic even if you know how it's done'
-_______________________________________________
-students mailing list
-students@lists.iitk.ac.in
-http://lists.iitk.ac.in/mailman/listinfo/students

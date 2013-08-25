@@ -1,37 +1,40 @@
-Hi all,
+Hi,
+The Deadline is extended to MIDNIGHT, 18th August.
 
-We received a good response for Embedded design challenge in terms of
-number of teams that registered for the event.
+----------------------------------------------------------------------------
+Dear Students,
 
-There was an upper limit on the number of teams from each pool, and we
-have more than 3 entries from few pools.
-So, the teams to participate next, will be decided on the basis of the
-abstract submitted. Each team is supposed to submit an abstract containing
-the details of the theory/principles used, list of components, price of
-the same and a detailed methodology of how you wish to solve the problem
-statement.
+If you think getting credit for what you have done goes farther than those
+so called ‘TREATS’, you may go on reading this email.
 
-Those, who fail to make to top 3 can still participate, but Electronics
-Club will not provide Arduino. They are advised to make some arrangements
-on their own.
+If you think things can’t be done overnight (like publishing a magazine)
+just because you are an IITian, then you are allowed to proceed.
 
-The deadline for abstract submission is 09:00 pm, August 24,2013(Saturday).
+Now, that you have cleared a few checkpoints, it is customary to give the
+regular introduction to Scientia. Scientia is the annual Sci-tech magazine
+of IIT Kanpur created by Science And Technology Council, and we think we
+have said enough. For more blabber, see these links:
 
-Be strict with the schedule, else the component distribution will be
-delayed or the teams would be liable to rejection.
+Le BLOG:        http://students.iitk.ac.in/snt/scientia/blog/
+Le FB PAGE:     https://www.facebook.com/scientia.iitk
 
-Cheers,
-Electronics Club
+The point of haranguing you for so long is that we need people to THINK,
+DESIGN, WRITE and EDIT.
 
-Contacts:
-Shivendu Bhushan  +918960419775
-Sonu Agarwal      +919005888958
-Swapnil Upadhyay  +917417279731
+APPLICATIONS are invited for the same (NO batch restrictions):
+https://docs.google.com/forms/d/14Vbg2hSYVe-XpBkqPnIxlbmeY1hmX2I7PzJ7hMPvKOY/viewform
 
-Facebook Group: https://www.facebook.com/groups/eclub.iitk/
-Youtube Channel: http://www.youtube.com/user/electronicsclub
-E-Club Fb page : https://www.facebook.com/groups/eclub.iitk/
+DEADLINE for applications is MIDNIGHT, 18th August.
+Eligibility Criteria:- Cpi should be greater than 6.5
 
+In case you thought this is more hype than substance, check out previous
+year’s Scientia. Critical analysis of it would be appreciated.
+
+The latest edition: http://students.iitk.ac.in/snt/scientia/2013/
+
+
+“Live Long and Prosper.”
+Scientia Editorial Team
 
 
 -- 
